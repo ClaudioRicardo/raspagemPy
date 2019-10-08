@@ -12,3 +12,7 @@ as noticias do dia, coletandos os links em que estejava presente a palavra "/not
 
 conda install --file=requirements.txt
 
+or 
+
+pip install -r requirements.txt
+
