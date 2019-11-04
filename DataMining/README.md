@@ -1,5 +1,7 @@
 # Simple Request News -- G1
 
+## Script: simple_requests_news.py
+
 O objetivo desse pequeno script é usar as baterias requests e beautifulsoup4 para coletar as noticias do dia
 da página G1 https://g1.globo.com/.
 
@@ -15,4 +17,9 @@ conda install --file=requirements.txt
 or 
 
 pip install -r requirements.txt
+
+
+# Simple Request News com Threads -- G1
+
+## Script: threads_simple_requests_news.py
 

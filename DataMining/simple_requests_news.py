@@ -54,6 +54,7 @@ def get_links(HTMLContext):
                 else:
                     text = a.text.strip()
 
+                text = text.replace('"',"'")
                 links_noticias.append("{\"titulo\": \""+text+"\", \"url\":\""+a['href']+"\"}")
 
     return links_noticias
@@ -88,6 +89,7 @@ def get_links_relevantes(links):
     if links:
 
         for l in links:
+            #print(l)
             obj = json.loads(l)
             #print(obj)
             if hoje.strftime("%Y/%m/%d") in obj['url']:
